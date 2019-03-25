@@ -8,8 +8,8 @@ token = '644158373:AAF8yisw57fukIJBraE7Z1yXaRqUCLLm75E'
 bot = telepot.Bot(token)
 response = bot.getUpdates()
 
-EMAIL_ACCOUNT = "ymelrukimsc@gmail.com"
-PASSWORD = "Y18273645y"
+EMAIL_ACCOUNT = "e-mail"
+PASSWORD = "password"
 while True:
     mail = imaplib.IMAP4_SSL('imap.gmail.com')
     mail.login(EMAIL_ACCOUNT, PASSWORD)
